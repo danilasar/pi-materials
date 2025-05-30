@@ -1,0 +1,27 @@
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{graphicx}
+\usepackage[sort,compress]{cite}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{fancyvrb}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{minted}
+%\usepackage{tempora} из-за этой вещи bibtex не видит cite
+\usepackage[hidelinks]{hyperref}
+
+\newcommand\langsection[2]{
+  \section{Язык #2}
+  \input{sections/#1/index.tex}
+  %\subsection{История}
+  %\input{sections/#1/history.tex}
+  \subsection{Особенности и возможности}
+  \input{sections/#1/features.tex}
+  \subsection{Область применения}
+  \input{sections/#1/use.tex}
+  \subsection{Востребованность и перспективы}
+  \input{sections/#1/relevance.tex}
+}

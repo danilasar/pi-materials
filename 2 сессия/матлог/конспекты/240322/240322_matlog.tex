@@ -1,0 +1,272 @@
+\documentclass{SCWorks}
+% Тип обучения (одно из значений):
+%    bachelor   - бакалавриат (по умолчанию)
+%    spec       - специальность
+%    master     - магистратура
+% Форма обучения (одно из значений):
+%    och        - очное (по умолчанию)
+%    zaoch      - заочное
+% Тип работы (одно из значений):
+%    coursework - курсовая работа (по умолчанию)
+%    referat    - реферат
+%  * otchet     - универсальный отчет
+%  * nirjournal - журнал НИР
+%  * digital    - итоговая работа для цифровой кафдры
+%    diploma    - дипломная работа
+%    pract      - отчет о научно-исследовательской работе
+%    autoref    - автореферат выпускной работы
+%    assignment - задание на выпускную квалификационную работу
+%    review     - отзыв руководителя
+%    critique   - рецензия на выпускную работу
+% Включение шрифта
+%    times      - включение шрифта Times New Roman (если установлен)
+%                 по умолчанию выключен
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[sort,compress]{cite}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{fancyvrb}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage[english,russian]{babel}
+\usepackage{minted}
+\usepackage{tempora}
+\usepackage[hidelinks]{hyperref}
+
+\usepackage{multirow}
+\usepackage[table]{xcolor}\usepackage{longtable}\usepackage{array}
+\usepackage{graphicx}%Вставка картинок правильная
+
+\usepackage{float}%"Плавающие" картинки
+
+\usepackage{cancel}%Зачёркивание
+
+\usepackage{wrapfig}%Обтекание фигур (таблиц, картинок и прочего)
+
+%\usepackage{stix}
+%\usepackage{mleftright,mathtools}
+
+\setlength{\arrayrulewidth}{0.5mm}
+\setlength{\tabcolsep}{18pt}
+
+\newenvironment{centeritemize*}[1][]
+  {\par\centering\begin{itemize*}[itemjoin=\quad,#1]}
+  {\end{itemize*}\par}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+
+\begin{document}
+
+% Включение нумерации рисунков, формул и таблиц по разделам (по умолчанию -
+% нумерация сквозная) (допускается оба вида нумерации)
+\secNumbering
+
+\tableofcontents
+
+% Раздел "Обозначения и сокращения". Может отсутствовать в работе
+% \abbreviations
+% \begin{description}
+%     \item ... "--- ...
+%     \item ... "--- ...
+% \end{description}
+
+% Раздел "Определения". Может отсутствовать в работе
+% \definitions
+
+% Раздел "Определения, обозначения и сокращения". Может отсутствовать в работе.
+% Если присутствует, то заменяет собой разделы "Обозначения и сокращения" и
+% "Определения"
+% \defabbr
+
+\newpage
+
+\par {\it Выполнимость формулы} $\Phi$ в интерпретации $M$ при оценке $\alpha$ обозначается $M |=_\alpha \Phi$ - читается "формула $\Phi$ истинна в интерпретации $M$ при оценке $\alpha$" и определяется следующим образом:
+\begin{enumerate}
+    \item $M |=_\alpha P(x_1, \dots, x_n)$ означает, что $P_M(\alpha(x_1), \dots, \alpha(x_n))$ - ист. выск.
+    \item $M |=_\alpha \neg \Psi$ означает, что $M \cancel{|=_\alpha} \Psi$, т. е.
+    \item $M |=_\alpha \Phi_1 \land \Phi_2 -||- M_\alpha \Phi_1$ $M |=_\alpha \Phi_2$
+    \item $M |=_\alpha = \Phi_1 \lor \Phi_2$ означает, что $M |=_{\alpha_1} \Phi_1$ или $M |=_\alpha \Phi_2$
+    \item $M |=_\alpha = \Phi_1 \Rightarrow \Phi_2$ означает, что неверно $M |=_{\alpha_1} \Phi_1$ и $M \cancel{|=_\alpha} \Phi_2$
+    \item $M |=_\alpha = \Phi_1^1 \Leftrightarrow \Phi_2^0$ означает, что $M |=_{\alpha_1} \Phi_1$. $M |=_\alpha \Phi_2$ одновременно верны или не верны
+    \item $M |=_\alpha = (\forall x)\Psi$ означает, что $M |=_{\alpha_1} \Phi$, когда $M |=_{\alpha'} \Phi$ для любой оценки $\alpha'$, отличной от $\alpha$ только на $X$
+    \item $M |=_\alpha = (\exists x)\Psi$ означает, что $M |=_{\alpha_1} \Phi$ для любой оценки $\alpha'$, отличной от $\alpha$ только на $X$
+\end{enumerate}
+
+\par {\it Определение.} В интерпретации $M$ формула $\Phi$ называется:
+\begin{itemize}
+    \item {\it общезначимой} (тождественно истинной), если $M |=_\alpha \Phi$ при любых оценках $\alpha$
+    \item {\it выполнимой}
+    \item {\it опревержимой}
+    \item {\it тождественно ложной}
+\end{itemize}
+
+\par Формула $\Phi$ общезначима в интерпретации $M$ (с интерпретацией $P_M$ $n$-арных предикатных символов $P$), если она превращается в тождественно истинный на множестве $M$ предикат. Символическая запись $M |= \Phi$.
+\par Формула $\Phi$ в интерпретации $M$ выполнима, опровержима или тождественно ложна, если она превращается соответственно в АААААААААААААААААА
+\par $M |= \Phi$ означ., что $M |=_\alpha \Phi$ при любой оценке $\alpha$.
+\par {\it Примеры.} \\
+$M |= P(x) \Leftrightarrow Q(x)$ равносильно $P_M(\alpha(x)) \Leftrightarrow Q_M(\alpha(x))$, \\
+$M |= P(x) \Rightarrow Q(x)$ равносильно $P_M(\alpha(x)) \Rightarrow Q_M(\alpha(x))$, \\ \\
+$M |= P(x) \Leftrightarrow Q(x)$ равносильно $P_M^+ = Q_M^+$, \\
+$M |= P(x) \Rightarrow Q(x)$ равносильно $P_M^+ \subset Q_M^+$, \\
+$M |= (\forall x)P(x)$ равносильно $P_M^+ = M$, \\
+$M |= (\forall exists)P(x)$ равносильно $P_M^+ \neq \varnothing$.
+
+\par {\it Определение.} Формула $\Phi$ называется {\it тождественно истинной}, если она тождественно истинна в любой интерпретации $M$. Такая формула называется также {\it общезначимой формулой}, или {\it тавтологией алгебры предикатов} и обозначается $|= \Phi$. Множество всех тавтологий алгебры предикатов обозначим %$\mathbfcal{T}_АП $
+\par {\it Определение.} Формула $\Phi$ называется {\it тождественно ложной} или {\it противоречием}, если она тождественно ложна в любой интерпретации $M$.
+\par По определению противоречивость формулы $\Phi$ равносильна условию $|= \neg \Phi$.
+\par {\it Определение.} Формула $\Phi$ называется {\it выполнимой}, если она выполнима хотя бы в одной интерпретации $M$, которая называется {\it моделью} этой формулы.
+\par {\it Пример 1.} Покажем, что $|= (\forall x)P(x) \Rightarrow (\exists x)P(x)$ \\
+Рассмотрим интерпретацию $M$ с предик. $P_M=P_M(x)$, для кат. $M |= (\forall x)P(x)$. Это означает, что $P_M^+ = M \neq \varnothing$, $\Psi$ - тавтология. Следовательно, $P_M^+ \neq \varnothing$ и выполняется $M |= (\exists x)P(x)$. \\
+Значит, $M |= (\forall x)P(x) \Rightarrow (\exists x)P(x)$ для любой интерпретации $M$.
+
+\par {\it Пример 2.} Покажем, что $|= (\exists x)P(x) \Rightarrow (\forall x)P(x)$ \\
+Рассмотрим интерпретацию $M=\{a, b\}$ и предикат $P_M=(x=a)$, $P_M^+ = \{a\} \neq \varnothing, M$. Тогда на $M |= (\exists x)P(x)$, т. к. $P_M^+ \neq \varnothing$, но $M \cancel{|=}(\forall x)P(x)$, т. к. $P_M^+ \neq M$. В результате $M \cancel{|=} (\exists x)P(x) \Rightarrow (\forall x)P(x)$ и формула $(\exists x)P(x) \Rightarrow (\forall x)P(x)$ опровержима. \\
+\\
+Как мы видим на примерах, тождественная истинность и опровержимость доказывается по разному. Таким образом, формула $\Phi$:
+\begin{itemize}
+    \item общезначимая (или тождественно истинная, тавтология), если $M |=_\alpha \Phi$ в любой интерпретации $M$ при любых оценках $\alpha$; запись $|=\Phi$;
+    \item {\it выпонимая}
+    \item опровержимая
+    \item тождественно ложная
+\end{itemize}
+
+\section{Тавтологии алгебры предикатов}
+Любая тавтология алгебры высказываний является тавтологией алгебры предикатов. Более того, тавтологии алгебры высказываний дают возможность легко получать тавтологии алгебры предикатов с помощью следующего очевидного результата.
+\par {\it Лемма 1.} Если $\Phi(X_1, \dots, X_n)$ -- тавтология алгебры высказываний, то для любых формул алгебры предикатов $\Phi_1, \dots, \Phi_n$ формула $\Phi(\Phi_1, \dots, \Phi_n)$ является тавтологией алгебры предикатов.
+\par $|= \neg(X\land Y) \Leftrightarrow \neg X \lor \neg Y$ -- тавтология алгебры высказываний
+\par $|= \neg(\Phi \lor \Psi) \Leftrightarrow \neg \Phi \lor \neg \Psi$ -- тавтология алгебры предикатов, если $\Phi, \Psi$ - формулы алгебры высказываний.
+\par С другой стороны, в алгебре предикатов можно получить много принципиально новых тавтологий с помощью следующих свойств кванторов.
+\par {\it Лемма 2.} Для любых формул $\Phi, \Psi$ следующие формулы явлюятся тавтологиями:
+\begin{enumerate}
+    \item $\neg(\forall x)\Phi \Leftrightarrow (\exists x)\neg\Phi$ \\ $\neg(\exists x)\Phi \Leftrightarrow (\forall x)\neg\Phi$ \\
+    $(\forall x)\Phi \Leftrightarrow \neg(\exists x)\neg\Phi$ \\ $(\exists x)\Phi \Leftrightarrow \neg(\forall x)\neg\Phi$
+    \item $(\forall x)(\forall y)\Phi \Leftrightarrow (\forall y)(\forall x)\Phi$ \\ $(\exists x)(\forall y)\Phi \Rightarrow (\forall y)(\exists x)\Phi$
+    \item $(\forall x)(\Phi \land \Psi) \Leftrightarrow (\forall x)\Phi \land (\forall x)\Psi$ \\ $(\exists x)(\Phi \lor \Psi) \Leftrightarrow (\exists x)\Phi \lor (\exists x)\Psi$
+    \item $(\forall x)(\Phi \pi \Psi) \Leftrightarrow (\forall x)\Phi \pi \Psi$, где $\pi$ -- символ одной из операций $\land, \lor$,
+    \item $(\exists x)(\Phi \pi \Psi) \Leftrightarrow (\exists x)\Phi \pi \Psi$, где $\pi$ -- символ одной из операций $\land, \lor$, если в формулу $\Psi$ предметная переменная $x$ не входит свободно
+\end{enumerate}
+\par {\it Пример.} Рассмотрим $\Phi = P(x, y)$ и покажем \\
+$\cancel{|=} (\forall y)(\exists z)P(x, y) \Rightarrow (\exists x)(\forall y)P(x, y)$. \\
+Возьмём инт. $M = \mathbb{N}, P_M(x, y) = (y \leq x)$. Тогда \\
+$\mathbb{N} |= (\forall y)(\exists x)P(x, y)$, т. к. для любого знач. $y = a$ найд. знач. $x$, для кот. $a \leq x$: \\
+$\mathbb{N} \cancel{|=} (\exists x)(\forall y)P(x, y)$, т. к. это утверждает, что найдётся такое знач. $x = a$, что для всех знач $y = b$ вып. $b \leq a$. Это неверно.
+\par С дизъюнкцией квантор общности переносить нельзя: $\cancel{|=} (\forall x)(\Phi(x)\lor\Psi(x)) \Leftrightarrow (\forall x)\Phi(x) \lor (\forall x)(\Psi(x))$
+
+\section{Логическая равносильность двух формул}
+\par {\it Определение.} Формулы алгебры предикатов  $\Phi, \Psi$ называются логически равносильными
+, если результат примененния к ним логической операции эквивалентность $\Phi \Leftrightarrow \Psi$ является тавтологией.
+В этом случае записывают $\Phi \equiv \Psi$ или $\Phi = \Psi$.
+Таким образом, $\Phi = \Psi$ означает, что $\Phi \Leftrightarrow \Psi$.
+
+Теорема 1. (Взаимосвязь между кванторами).
+$\forall \Phi$:
+\begin{equation*}
+    (\forall x)(\forall y) \Phi = (\forall y)(\forall x)\Phi, (\exists x)(\exists y) \Phi = (\exists y)(\exists x)\Phi
+\end{equation*}
+
+Спасибо Роберту за логическую равносильность формул
+
+\par {\it Следствие 7.} Любая формула $\Phi$ представляетя в следующем виде:
+\begin{equation*}
+    \Phi = (K_1 x_1)\dots(K_n x_n)\Psi,
+\end{equation*}
+АААААААААААААААААА
+
+\par {\it Алгоритм} приведения формулы $\Phi$ к ПНФ:
+\par 1) преобразуем формулу $\Phi$ в эквивалентную ей формулу $\Phi'$, которая не содержит импликации и эквивалентности и в которой отрицание действует только на элементарные формулы
+\par 2) в $\Phi'$ все кванторы последовательно выносим вперёд по теореме 5, при этом кванторы общности выносятся из конъюнкции и квандоры существования выносятся из дизъюнкции, а для выноса кванторов общности из дизъюнкции и кванторов существования из конъюнкции переименовываем связанные переменные $x$ в новые переменные $y$, которые не входят в рассмотренную формулу.
+\par {\underline{Пример.}} Найдём ПНФ для формулы $\Phi = (\exists x)(\forall y)P(x, y) \Rightarrow (\forall y)(\exists x)P(x, y) = \neg(\exists x)(\forall y)P(x, y) \lor (\forall y)(\exists x)P(x, y) = (\forall x)(\exists y)\neg P(x, y) \lor (\forall y)(\exists x)P(x, y)$ \\
+Выполним замену $y \rightarrow u, x \rightarrow v$: \\
+$= (\forall x)(\exists y)\neg P(x, y)\lor(\forall u)(\exists v)P(v, u) = (\forall x)(\exists y)(\neg P(x, y))\lor(\forall u)(\exists v)P(v, u) = (\forall x)(\exists y)(\forall u)(\exists v)\underset{\Psi}{\underbrace{(\neg P(x,y) \lor P(v, u))}}$. Мы получили ПНФ, так как формула $\Psi$ без кванторов
+
+\section{Практика}
+\par \underline{Задача 2.}  Выясните, справедливо ли следующее логическое следование: 
+\begin{equation*}
+    F \Rightarrow G, K \Rightarrow \neg H, H \lor \neg G |= F \Rightarrow \neg K
+\end{equation*}
+Решение. \\
+$F \underset{\Phi_1} \Rightarrow G, K \underset{\Phi_2} \Rightarrow \neg H, H \lor \neg G |= F \underset \Phi \Rightarrow \neg K$ \\
+Д-во от противного. \\
+Предположим, чо это лог. след. не вып., для некот истин. зн. перем. $F, G, H, K$ вып.:
+1) $F \Rightarrow G = 1$ \\
+2) $K \Rightarrow \neg H = 1$ \\
+3) $H \lor \neg G = 1$ \\
+4) $F \Rightarrow K$ = 0 \\
+Из случая 4) получаем $F = 1, \neg K = 0$, т. е. $K = 1$ \\
+Из 1): $1 \Rightarrow G = 1$, $G = 1$ \\
+Из 2): $1 \Rightarrow \neg H 1$, $\neg H = 1$, $H = 0$ \\
+Из 3): $0 \lor \neg 1 = 0 \neq 1$ -- противоречит условию 3. Значит, наше предположение верно и логическое условие выполняется.
+
+\par \underline{Задача 5.}
+
+\subsection{Метод проверки тождественной истинности формул}
+\par \underline{Метод 1. С помощью таблицы.} Тривиально.
+\par \underline{Метод 2. Алгебраический метод.} Разбирался ранее.
+%\par \underline{Метод 3. Алгоритм Квайна.} IMG_20240322_123816_397.jpg и IMG_20240322_123821_796.jpg
+
+\par \underline{Задача.} С помощью алгоритма Квайна выясните, является ли тождественно истинной формула
+\begin{equation*}
+    \Phi = ((Y \Rightarrow Z) \land (X \Rightarrow V) \land (X \lor \neg Z)) \Rightarrow (\neg Y \lor V)
+\end{equation*}
+Строим дерево решений (см. конспект в тетради). Фиксируем $X = 1$:
+\begin{equation*}
+    (Y \Rightarrow Z) \land (1 \Rightarrow V) \land \cancel{(1 \lor \neg Z)} \Rightarrow (\neg Y \lor V)
+\end{equation*}
+\begin{equation}
+    (Y \Rightarrow Z) \land V \Rightarrow (\neg Y \lor V)
+\end{equation}
+В (3.1) фиксируем $Y=1$:
+\begin{equation*}
+    (1 \Rightarrow Z) \land V \Rightarrow (0 \lor V)
+\end{equation*}
+\begin{equation}
+    Z \land V \Rightarrow V
+\end{equation}
+В (3.2) фиксируем $V=1$:
+\begin{equation*}
+    Z \land 1 \Rightarrow 1
+\end{equation*}
+\begin{equation*}
+    Z \Rightarrow 1 = 1
+\end{equation*}
+Верно. Теперь в (3.2) фиксируем $V=0$:
+\begin{equation*}
+    Z \land 0 \Rightarrow 0 = 1
+\end{equation*}
+Верно. \\ \\ Теперь в (3.1) фиксируем $Y=0$:
+\begin{equation*}
+    (0 \Rightarrow Z) \land V \Rightarrow (1 \lor V)
+\end{equation*}
+Продолжение следует.
+
+% \conclusion
+
+% Библиографический список, составленный вручную, без использования BibTeX
+%
+% \begin{thebibliography}{99}
+%   \bibitem{Ione} Источник 1.
+%   \bibitem{Itwo} Источник 2
+% \end{thebibliography}
+
+% Отобразить все источники. Даже те, на которые нет ссылок.
+% \nocite{*}
+
+% Меняем inputencoding на лету, чтобы работать с библиографией в кодировке
+% `cp1251', в то время как остальной документ находится в кодировке `utf8'
+% Credit: Никита Рыданов
+\inputencoding{cp1251}
+% \bibliographystyle{gost780uv}
+% \bibliography{thesis}
+\inputencoding{utf8}
+
+% При использовании biblatex вместо bibtex
+% \printbibliography
+
+% Окончание основного документа и начало приложений Каждая последующая секция
+% документа будет являться приложением
+\appendix
+
+\end{document}

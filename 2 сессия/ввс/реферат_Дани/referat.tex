@@ -1,0 +1,54 @@
+\documentclass[referat]{SCWorks}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{preamble}
+
+\begin{document}
+\chair{информатики и программирования}
+\title{Современные языки программирования}
+\course{1}
+\group{151}
+\napravlenie{09.03.04 "--- Программная инженерия}
+\department{факультета компьютерных наук и информационных технологий}
+\author{Григорьева Данилы Евгеньевича}
+% Заведующий кафедрой 
+\chtitle{доцент, к.\,ф.-м.\,н.}
+\chname{С.\,В.\,Миронов}
+% Научный руководитель (для реферата преподаватель проверяющий работу)
+\satitle{доцент, к.\,п.\,н.} %должность, степень, звание
+\saname{А.\,П.\,Грецова}
+\date{2024 г.}
+
+\maketitle
+
+% Включение нумерации рисунков, формул и таблиц по разделам (по умолчанию -
+% нумерация сквозная) (допускается оба вида нумерации)
+\secNumbering
+
+\tableofcontents
+\intro
+\input{sections/intro.tex}
+\langsection{python}{Python}
+\langsection{cpp}{C++}
+\langsection{rust}{Rust}
+\langsection{go}{Go}
+\langsection{java}{Java}
+\langsection{kotlin}{Kotlin}
+% \langsection{dart}{Dart}
+% \langsection{js}{JavaScript}
+
+\newpage
+\conclusion
+\input{sections/outro.tex}
+
+\newpage
+
+\inputencoding{cp1251}
+\bibliographystyle{gost780uv}
+\bibliography{thesis}
+\inputencoding{utf8}
+
+\appendix
+
+\end{document}

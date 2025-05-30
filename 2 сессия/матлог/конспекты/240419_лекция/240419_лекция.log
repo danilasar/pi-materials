@@ -1,0 +1,738 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.3.26)  19 APR 2024 11:35
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/danilasar/Р”РѕРєСѓРјРµРЅС‚С‹/sgu/РњР°С‚Р»РѕРі/240419_Р»РµРєС†РёСЏ/240419_Р»РµРєС†РёСЏ.tex
+(/home/danilasar/Р”РѕРєСѓРјРµРЅС‚С‹/sgu/РњР°С‚Р»РѕРі/240419_Р»РµРєС†РёСЏ/240419_Р»РµРєС†РёСЏ.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22> (/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (/usr/share/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+ (/usr/share/texmf-dist/tex/latex/cyrillic/t2aenc.def
+File: t2aenc.def 2022/06/11 v1.0j Cyrillic encoding definition file
+Now handling font encoding T2A ...
+... processing UTF-8 mapping file for font encoding T2A
+ (/usr/share/texmf-dist/tex/latex/base/t2aenc.dfu
+File: t2aenc.dfu 2022/06/07 v1.3c UTF-8 support
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0237 (decimal 567)
+   defining Unicode char U+0400 (decimal 1024)
+   defining Unicode char U+0401 (decimal 1025)
+   defining Unicode char U+0402 (decimal 1026)
+   defining Unicode char U+0403 (decimal 1027)
+   defining Unicode char U+0404 (decimal 1028)
+   defining Unicode char U+0405 (decimal 1029)
+   defining Unicode char U+0406 (decimal 1030)
+   defining Unicode char U+0407 (decimal 1031)
+   defining Unicode char U+0408 (decimal 1032)
+   defining Unicode char U+0409 (decimal 1033)
+   defining Unicode char U+040A (decimal 1034)
+   defining Unicode char U+040B (decimal 1035)
+   defining Unicode char U+040C (decimal 1036)
+   defining Unicode char U+040D (decimal 1037)
+   defining Unicode char U+040E (decimal 1038)
+   defining Unicode char U+040F (decimal 1039)
+   defining Unicode char U+0410 (decimal 1040)
+   defining Unicode char U+0411 (decimal 1041)
+   defining Unicode char U+0412 (decimal 1042)
+   defining Unicode char U+0413 (decimal 1043)
+   defining Unicode char U+0414 (decimal 1044)
+   defining Unicode char U+0415 (decimal 1045)
+   defining Unicode char U+0416 (decimal 1046)
+   defining Unicode char U+0417 (decimal 1047)
+   defining Unicode char U+0418 (decimal 1048)
+   defining Unicode char U+0419 (decimal 1049)
+   defining Unicode char U+041A (decimal 1050)
+   defining Unicode char U+041B (decimal 1051)
+   defining Unicode char U+041C (decimal 1052)
+   defining Unicode char U+041D (decimal 1053)
+   defining Unicode char U+041E (decimal 1054)
+   defining Unicode char U+041F (decimal 1055)
+   defining Unicode char U+0420 (decimal 1056)
+   defining Unicode char U+0421 (decimal 1057)
+   defining Unicode char U+0422 (decimal 1058)
+   defining Unicode char U+0423 (decimal 1059)
+   defining Unicode char U+0424 (decimal 1060)
+   defining Unicode char U+0425 (decimal 1061)
+   defining Unicode char U+0426 (decimal 1062)
+   defining Unicode char U+0427 (decimal 1063)
+   defining Unicode char U+0428 (decimal 1064)
+   defining Unicode char U+0429 (decimal 1065)
+   defining Unicode char U+042A (decimal 1066)
+   defining Unicode char U+042B (decimal 1067)
+   defining Unicode char U+042C (decimal 1068)
+   defining Unicode char U+042D (decimal 1069)
+   defining Unicode char U+042E (decimal 1070)
+   defining Unicode char U+042F (decimal 1071)
+   defining Unicode char U+0430 (decimal 1072)
+   defining Unicode char U+0431 (decimal 1073)
+   defining Unicode char U+0432 (decimal 1074)
+   defining Unicode char U+0433 (decimal 1075)
+   defining Unicode char U+0434 (decimal 1076)
+   defining Unicode char U+0435 (decimal 1077)
+   defining Unicode char U+0436 (decimal 1078)
+   defining Unicode char U+0437 (decimal 1079)
+   defining Unicode char U+0438 (decimal 1080)
+   defining Unicode char U+0439 (decimal 1081)
+   defining Unicode char U+043A (decimal 1082)
+   defining Unicode char U+043B (decimal 1083)
+   defining Unicode char U+043C (decimal 1084)
+   defining Unicode char U+043D (decimal 1085)
+   defining Unicode char U+043E (decimal 1086)
+   defining Unicode char U+043F (decimal 1087)
+   defining Unicode char U+0440 (decimal 1088)
+   defining Unicode char U+0441 (decimal 1089)
+   defining Unicode char U+0442 (decimal 1090)
+   defining Unicode char U+0443 (decimal 1091)
+   defining Unicode char U+0444 (decimal 1092)
+   defining Unicode char U+0445 (decimal 1093)
+   defining Unicode char U+0446 (decimal 1094)
+   defining Unicode char U+0447 (decimal 1095)
+   defining Unicode char U+0448 (decimal 1096)
+   defining Unicode char U+0449 (decimal 1097)
+   defining Unicode char U+044A (decimal 1098)
+   defining Unicode char U+044B (decimal 1099)
+   defining Unicode char U+044C (decimal 1100)
+   defining Unicode char U+044D (decimal 1101)
+   defining Unicode char U+044E (decimal 1102)
+   defining Unicode char U+044F (decimal 1103)
+   defining Unicode char U+0450 (decimal 1104)
+   defining Unicode char U+0451 (decimal 1105)
+   defining Unicode char U+0452 (decimal 1106)
+   defining Unicode char U+0453 (decimal 1107)
+   defining Unicode char U+0454 (decimal 1108)
+   defining Unicode char U+0455 (decimal 1109)
+   defining Unicode char U+0456 (decimal 1110)
+   defining Unicode char U+0457 (decimal 1111)
+   defining Unicode char U+0458 (decimal 1112)
+   defining Unicode char U+0459 (decimal 1113)
+   defining Unicode char U+045A (decimal 1114)
+   defining Unicode char U+045B (decimal 1115)
+   defining Unicode char U+045C (decimal 1116)
+   defining Unicode char U+045D (decimal 1117)
+   defining Unicode char U+045E (decimal 1118)
+   defining Unicode char U+045F (decimal 1119)
+   defining Unicode char U+0490 (decimal 1168)
+   defining Unicode char U+0491 (decimal 1169)
+   defining Unicode char U+0492 (decimal 1170)
+   defining Unicode char U+0493 (decimal 1171)
+   defining Unicode char U+0496 (decimal 1174)
+   defining Unicode char U+0497 (decimal 1175)
+   defining Unicode char U+0498 (decimal 1176)
+   defining Unicode char U+0499 (decimal 1177)
+   defining Unicode char U+049A (decimal 1178)
+   defining Unicode char U+049B (decimal 1179)
+   defining Unicode char U+049C (decimal 1180)
+   defining Unicode char U+049D (decimal 1181)
+   defining Unicode char U+04A0 (decimal 1184)
+   defining Unicode char U+04A1 (decimal 1185)
+   defining Unicode char U+04A2 (decimal 1186)
+   defining Unicode char U+04A3 (decimal 1187)
+   defining Unicode char U+04A4 (decimal 1188)
+   defining Unicode char U+04A5 (decimal 1189)
+   defining Unicode char U+04AA (decimal 1194)
+   defining Unicode char U+04AB (decimal 1195)
+   defining Unicode char U+04AE (decimal 1198)
+   defining Unicode char U+04AF (decimal 1199)
+   defining Unicode char U+04B0 (decimal 1200)
+   defining Unicode char U+04B1 (decimal 1201)
+   defining Unicode char U+04B2 (decimal 1202)
+   defining Unicode char U+04B3 (decimal 1203)
+   defining Unicode char U+04B6 (decimal 1206)
+   defining Unicode char U+04B7 (decimal 1207)
+   defining Unicode char U+04B8 (decimal 1208)
+   defining Unicode char U+04B9 (decimal 1209)
+   defining Unicode char U+04BA (decimal 1210)
+   defining Unicode char U+04BB (decimal 1211)
+   defining Unicode char U+04C0 (decimal 1216)
+   defining Unicode char U+04C1 (decimal 1217)
+   defining Unicode char U+04C2 (decimal 1218)
+   defining Unicode char U+04D0 (decimal 1232)
+   defining Unicode char U+04D1 (decimal 1233)
+   defining Unicode char U+04D2 (decimal 1234)
+   defining Unicode char U+04D3 (decimal 1235)
+   defining Unicode char U+04D4 (decimal 1236)
+   defining Unicode char U+04D5 (decimal 1237)
+   defining Unicode char U+04D6 (decimal 1238)
+   defining Unicode char U+04D7 (decimal 1239)
+   defining Unicode char U+04D8 (decimal 1240)
+   defining Unicode char U+04D9 (decimal 1241)
+   defining Unicode char U+04DA (decimal 1242)
+   defining Unicode char U+04DB (decimal 1243)
+   defining Unicode char U+04DC (decimal 1244)
+   defining Unicode char U+04DD (decimal 1245)
+   defining Unicode char U+04DE (decimal 1246)
+   defining Unicode char U+04DF (decimal 1247)
+   defining Unicode char U+04E2 (decimal 1250)
+   defining Unicode char U+04E3 (decimal 1251)
+   defining Unicode char U+04E4 (decimal 1252)
+   defining Unicode char U+04E5 (decimal 1253)
+   defining Unicode char U+04E6 (decimal 1254)
+   defining Unicode char U+04E7 (decimal 1255)
+   defining Unicode char U+04E8 (decimal 1256)
+   defining Unicode char U+04E9 (decimal 1257)
+   defining Unicode char U+04EC (decimal 1260)
+   defining Unicode char U+04ED (decimal 1261)
+   defining Unicode char U+04EE (decimal 1262)
+   defining Unicode char U+04EF (decimal 1263)
+   defining Unicode char U+04F0 (decimal 1264)
+   defining Unicode char U+04F1 (decimal 1265)
+   defining Unicode char U+04F2 (decimal 1266)
+   defining Unicode char U+04F3 (decimal 1267)
+   defining Unicode char U+04F4 (decimal 1268)
+   defining Unicode char U+04F5 (decimal 1269)
+   defining Unicode char U+04F8 (decimal 1272)
+   defining Unicode char U+04F9 (decimal 1273)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+3008 (decimal 12296)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+3009 (decimal 12297)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+27E8 (decimal 10216)
+   defining Unicode char U+27E9 (decimal 10217)
+   defining Unicode char U+FB00 (decimal 64256)
+   defining Unicode char U+FB01 (decimal 64257)
+   defining Unicode char U+FB02 (decimal 64258)
+   defining Unicode char U+FB03 (decimal 64259)
+   defining Unicode char U+FB04 (decimal 64260)
+   defining Unicode char U+FB05 (decimal 64261)
+   defining Unicode char U+FB06 (decimal 64262)
+))
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 112.
+ (/usr/share/texmf-dist/tex/latex/cyrillic/t2acmr.fd
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+) (/usr/share/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2023/02/13 3.86 The Babel package
+\babel@savecnt=\count193
+\U@D=\dimen141
+\l@unhyphenated=\language3
+ (/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count194
+ (/usr/share/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'british' set to \l@english
+(babel)             (\language0). Reported on input line 82.
+Package babel Info: Hyphen rules for 'UKenglish' set to \l@english
+(babel)             (\language0). Reported on input line 83.
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@english
+(babel)             (\language0). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@english
+(babel)             (\language0). Reported on input line 108.
+) (/usr/share/texmf-dist/tex/generic/babel-russian/russianb.ldf
+File: russianb.ldf 2021/01/10 1.3m Russian support for the Babel system
+Language: russian 2020/09/09 1.3k Russian support for the Babel system
+
+
+Package babel Warning: No hyphenation patterns were preloaded for
+(babel)                the language 'Russian' into the format.
+(babel)                Please, configure your TeX system to add them and
+(babel)                rebuild the format. Now I will use the patterns
+(babel)                preloaded for \language=0 instead on input line 32.
+
+Package babel Info: Hyphen rules for 'russian' set to \l@english
+(babel)             (\language0). Reported on input line 33.
+Package babel Info: Making " an active character on input line 124.
+Package babel Info: Default for \cyrdash is provided on input line 163.
+)) (/usr/share/texmf-dist/tex/generic/babel/locale/ru/babel-russian.tex
+Package babel Info: Importing font and identification data for russian
+(babel)             from babel-ru.ini. Reported on input line 11.
+) (/usr/share/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+) (/usr/share/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
+ (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+) (/usr/share/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count195
+\calc@Bcount=\count196
+\calc@Adimen=\dimen142
+\calc@Bdimen=\dimen143
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count197
+\calc@Cskip=\skip52
+) (/usr/share/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+) (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip53
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen144
+)) (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen145
+) (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count198
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count199
+\leftroot@=\count266
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count267
+\DOTSCASE@=\count268
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen146
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count269
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count270
+\dotsspace@=\muskip16
+\c@parentequation=\count271
+\dspbrk@lvl=\count272
+\tag@help=\toks20
+\row@=\count273
+\column@=\count274
+\maxfields@=\count275
+\andhelp@=\toks21
+\eqnshift@=\dimen147
+\alignsep@=\dimen148
+\tagshift@=\dimen149
+\tagwidth@=\dimen150
+\totwidth@=\dimen151
+\lineht@=\dimen152
+\@envbody=\toks22
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+\g_MT_multlinerow_int=\count276
+\l_MT_multwidth_dim=\dimen153
+\origjot=\skip56
+\l_MT_shortvdotswithinadjustabove_dim=\dimen154
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen155
+\l_MT_above_intertext_sep=\dimen156
+\l_MT_below_intertext_sep=\dimen157
+\l_MT_above_shortintertext_sep=\dimen158
+\l_MT_below_shortintertext_sep=\dimen159
+\xmathstrut@box=\box53
+\xmathstrut@dim=\dimen160
+) (/usr/share/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+) (/usr/share/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box54
+\UL@hyphenbox=\box55
+\UL@skip=\skip57
+\UL@hook=\toks24
+\UL@height=\dimen161
+\UL@pe=\count277
+\UL@pixel=\dimen162
+\ULC@box=\box56
+Package: ulem 2019/11/18
+\ULdepth=\dimen163
+) (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count278
+\l__pdf_internal_box=\box57
+) (./240419_Р»РµРєС†РёСЏ.aux)
+\openout1 = `240419_Р»РµРєС†РёСЏ.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Info: Redefining \th on input line 13.
+ (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+ (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count279
+\scratchdimen=\dimen164
+\scratchbox=\box58
+\nofMPsegments=\count280
+\nofMParguments=\count281
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count282
+\MPscratchDim=\dimen165
+\MPnumerator=\count283
+\makeMPintoPDFobject=\count284
+\everyMPtoPDFconversion=\toks26
+))) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+\Gin@req@height=\dimen166
+\Gin@req@width=\dimen167
+)
+Overfull \hbox (52.42546pt too wide) in paragraph at lines 14--14
+[]\T2A/cmr/bx/n/14.4 Логическое следование формул алгебры предикатов 
+ []
+
+
+Overfull \hbox (5.33368pt too wide) in paragraph at lines 23--24
+[]\T2A/cmr/m/n/10 С помощью логического следования формул определяются общие способы
+ []
+
+
+Overfull \hbox (7.13623pt too wide) in paragraph at lines 23--24
+\T2A/cmr/m/n/10 доказательства взаимосвязи между истинностными значениями утверждений
+ []
+
+
+Overfull \hbox (5.78961pt too wide) in paragraph at lines 27--28
+[]$[]$ \T2A/cmr/m/n/10 Формула $\OT1/cmr/m/n/10 ^^H$ \T2A/cmr/m/n/10 называется \T2A/cmr/m/it/10 логическим следствием множества
+ []
+
+
+Overfull \hbox (3.7656pt too wide) in paragraph at lines 29--30
+[]\T2A/cmr/m/n/10 Такое логическое следствие обозначается $\OT1/cmr/m/n/10 ^^@\OMS/cmsy/m/n/10 j \OT1/cmr/m/n/10 = ^^H$ \T2A/cmr/m/n/10 и называется \T2A/cmr/m/it/10 логическим
+ []
+
+
+Overfull \hbox (23.25005pt too wide) in paragraph at lines 43--44
+\T2A/cmr/m/n/10 предикатными символами этих формул. Так как множество таких интерпретаций
+ []
+
+
+Overfull \hbox (104.19698pt too wide) in paragraph at lines 43--44
+\T2A/cmr/m/n/10 бесконечно (они могут иметь как конечные, так и бесконечные БЛЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯ) 
+ []
+
+
+Overfull \hbox (26.1648pt too wide) in paragraph at lines 45--46
+[]\T2A/cmr/m/n/10 Альтернативный подход к проверке общезначимости формулы $\OT1/cmr/m/n/10 ^^H$ \T2A/cmr/m/n/10 основывается
+ []
+
+
+Overfull \hbox (4.3628pt too wide) in paragraph at lines 47--48
+[]\T2A/cmr/m/n/10 Если из предположения существоввания такой интерпретации получается
+ []
+
+
+Overfull \hbox (3.8066pt too wide) in paragraph at lines 47--48
+\T2A/cmr/m/n/10 полученных условий для входящих в формулу $\OT1/cmr/m/n/10 ^^H$ \T2A/cmr/m/n/10 предикатов, алгебраических
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+Overfull \hbox (15.33345pt too wide) in paragraph at lines 52--53
+[]\T2A/cmr/m/n/10 Существуют алгоритмы поиска доказательства, которые для общезначимых
+ []
+
+
+Overfull \hbox (14.49777pt too wide) in paragraph at lines 52--53
+\T2A/cmr/m/n/10 формул подтверждают, что эти формулы общезначимы, и для необщезначимых
+ []
+
+
+Overfull \hbox (2.16327pt too wide) in paragraph at lines 54--55
+[]\T2A/cmr/m/n/10 Автоматические системы построения доказательств называют \T2A/cmr/m/it/10 пруверами
+ []
+
+
+Overfull \hbox (14.6447pt too wide) in paragraph at lines 61--62
+[]\T2A/cmr/m/n/10 Примером такого алгоритма является метод резолюций. Отсюда начинается
+ []
+
+
+Overfull \hbox (2.55402pt too wide) in paragraph at lines 68--69
+\T2A/cmr/m/n/10 Первым шагом метода резолюций в алгебре предикатов является приведение
+ []
+
+
+Overfull \hbox (19.7918pt too wide) in paragraph at lines 70--71
+[]\T2A/cmr/m/n/10 Формула исчисления предикатов $\OT1/cmr/m/n/10 ^^H$ \T2A/cmr/m/n/10 находится \T2A/cmr/m/it/10 в предваренной или пренексной
+ []
+
+
+Overfull \hbox (13.78728pt too wide) in paragraph at lines 70--71
+\OML/cmm/m/it/10 K[]; [] ; K[]$ \T2A/cmr/m/n/10 --- некоторые кванторы и $\OT1/cmr/m/n/10 	$ \T2A/cmr/m/n/10 --- бескванторная формула, находящаяся
+ []
+
+
+Overfull \hbox (9.45818pt too wide) in paragraph at lines 70--71
+\T2A/cmr/m/n/10 в КНФ. При этом последовательность кванторов $\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 K[]x[]\OT1/cmr/m/n/10 ) [] (\OML/cmm/m/it/10 K[]x[]\OT1/cmr/m/n/10 )$ \T2A/cmr/m/n/10 называется
+ []
+
+
+Overfull \hbox (19.63861pt too wide) in paragraph at lines 72--73
+[]$[]$ \T2A/cmr/m/n/10 Любая формула исчисления предикатов $\OT1/cmr/m/n/10 ^^H$ \T2A/cmr/m/n/10 логически равносильна
+ []
+
+
+Overfull \hbox (22.12859pt too wide) in paragraph at lines 74--75
+[]\T2A/cmr/m/n/10 Такая формула $\OT1/cmr/m/n/10 ^^H[]$ \T2A/cmr/m/n/10 называется \T2A/cmr/m/it/10 пренексной нормальной формулой \T2A/cmr/m/n/10 (сокращјнно
+ []
+
+
+Overfull \hbox (0.44467pt too wide) in paragraph at lines 81--83
+\T2A/cmr/m/n/10 где $\OML/cmm/m/it/10 K[]; [] ; K[]$ \T2A/cmr/m/n/10 --- некоторые кванторы и $\OT1/cmr/m/n/10 	 = 	(\OML/cmm/m/it/10 x[]; [] ; x[]\OT1/cmr/m/n/10 )$ \T2A/cmr/m/n/10 --- конъюнктивное
+ []
+
+[2]
+Overfull \hbox (40.46576pt too wide) in paragraph at lines 84--85
+[]\T2A/cmr/m/n/10 В кванторной приствке формулы $\OT1/cmr/m/n/10 ^^H$ \T2A/cmr/m/n/10 можно удалить любой квантор существования
+ []
+
+
+Overfull \hbox (5.75092pt too wide) in paragraph at lines 86--87
+[]\T2A/cmr/m/n/10 Если левее квантора существования $\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 9\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 )$ \T2A/cmr/m/n/10 в формуле $\OT1/cmr/m/n/10 ^^H$ \T2A/cmr/m/n/10 не стоит никакой
+ []
+
+
+Overfull \hbox (46.49147pt too wide) in paragraph at lines 87--88
+[]\T2A/cmr/m/n/10 если же левее квантора существования стоят кванторы общности $\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 ) [] (\OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 )$
+ []
+
+
+Overfull \hbox (25.28351pt too wide) in paragraph at lines 87--88
+\T2A/cmr/m/n/10 для значений $\OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10 ^^T \OML/cmm/m/it/10 s[] \OMS/cmsy/m/n/10 ^^T [] ^^T \OML/cmm/m/it/10 s[] \OMS/cmsy/m/n/10 ^^T \OML/cmm/m/it/10 s$\T2A/cmr/m/n/10 , то выбираем $\OML/cmm/m/it/10 m$\T2A/cmr/m/n/10 -арный функциональный
+ []
+
+
+Overfull \hbox (1.44495pt too wide) in paragraph at lines 90--91
+\T2A/cmr/m/n/10 кванторной приставки формулы $\OT1/cmr/m/n/10 ^^H$ \T2A/cmr/m/n/10 удалением всех кванторов существования
+ []
+
+
+Overfull \hbox (1.16547pt too wide) in paragraph at lines 90--91
+\T2A/cmr/m/n/10 и которая содержит все новые символы --- функциональные или предметные. 
+ []
+
+
+Overfull \hbox (20.33112pt too wide) in paragraph at lines 94--95
+[]\T2A/cmr/m/n/10 Рассмотренный пријм удаления квантора был введјн Скулемом и называется
+ []
+
+
+Overfull \hbox (35.48807pt too wide) in paragraph at lines 94--95
+\T2A/cmr/m/it/10 скулемизацией формул\T2A/cmr/m/n/10 . Вводимые в процессе скулемизации новые функциональные
+ []
+
+
+Overfull \hbox (8.02031pt too wide) in paragraph at lines 94--95
+\T2A/cmr/m/n/10 и предметные символы называются \T2A/cmr/m/it/10 функторами Скулема \T2A/cmr/m/n/10 или \T2A/cmr/m/it/10 скулемовскими
+ []
+
+
+Overfull \hbox (6.33699pt too wide) in paragraph at lines 96--97
+[]\T2A/cmr/m/n/10 Получннную в результате скулемизации замкнутую формулу $\OT1/cmr/m/n/10 ^^H[]$ \T2A/cmr/m/n/10 называют
+ []
+
+
+Overfull \hbox (20.05518pt too wide) in paragraph at lines 98--99
+[]$[]$ \T2A/cmr/m/n/10 Любая замкнутая формула исчисления предикатов $\OT1/cmr/m/n/10 ^^H$ \T2A/cmr/m/n/10 эффективно
+ []
+
+
+Overfull \hbox (24.4931pt too wide) in paragraph at lines 98--99
+\T2A/cmr/m/n/10 преобразуется (с помощью определјнного алгоритма) в логически эквивалентную
+ []
+
+
+Overfull \hbox (25.18738pt too wide) in paragraph at lines 112--113
+\T2A/cmr/m/n/10 Это метод доказательства противоречивости множества дизъюнктов посредством
+ []
+
+
+Overfull \hbox (32.16396pt too wide) in paragraph at lines 112--113
+\T2A/cmr/m/n/10 невозможности построения интерпретации в специальном множестве $\OML/cmm/m/it/10 H$ \T2A/cmr/m/n/10 (\T2A/cmr/m/it/10 универсум
+ []
+
+[3]
+Overfull \hbox (5.47475pt too wide) in paragraph at lines 114--115
+[]\T2A/cmr/m/n/10 Эрбранов универсум --- это множество, состоящее из постоянных символов
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+ []
+
+
+Overfull \hbox (21.02539pt too wide) in paragraph at lines 118--119
+[]\T2A/cmr/m/n/10 Доказательство тождественной истинности замкнутой формулы равносильно
+ []
+
+
+Overfull \hbox (15.33234pt too wide) in paragraph at lines 120--121
+[]\T2A/cmr/m/n/10 Далее рассматривается задача доказательства противоречивости замкнутой
+ []
+
+
+Overfull \hbox (1.97418pt too wide) in paragraph at lines 122--123
+[]\T2A/cmr/bx/n/10 Правило 1. \T2A/cmr/m/n/10 Противоречивость замкнутой формулы алгебры предикатов
+ []
+
+
+Overfull \hbox (26.59286pt too wide) in paragraph at lines 130--131
+[]\T2A/cmr/m/n/10 Доказательство противоречивости (т. е. невыполнимости) замкнутой формулы
+ []
+
+
+Overfull \hbox (13.80605pt too wide) in paragraph at lines 132--133
+[]\T2A/cmr/m/n/10 Эрбран доказал, что при доказательстве невыполнимости такого множества
+ []
+
+
+Overfull \hbox (31.75684pt too wide) in paragraph at lines 132--133
+\T2A/cmr/m/n/10 формул $\OML/cmm/m/it/10 S$ \T2A/cmr/m/n/10 можно ограничиться рассмотрением интерпретаций в одной специальной
+ []
+
+
+Overfull \hbox (16.97052pt too wide) in paragraph at lines 134--135
+[]\T2A/cmr/bx/n/10 Правило 2. \T2A/cmr/m/n/10 Доказательство противоречивости формул алгебры предикатов
+ []
+
+
+Overfull \hbox (9.49677pt too wide) in paragraph at lines 134--135
+\T2A/cmr/m/n/10 сводится к доказательству противоречивости конечных множеств дизъюнктов
+ []
+
+
+Overfull \hbox (5.33775pt too wide) in paragraph at lines 138--139
+\T2A/cmr/m/n/10 строится резольвента формул. Резольвента применялась к двум дизъюнктам.
+ []
+
+
+Overfull \hbox (17.16429pt too wide) in paragraph at lines 138--139
+\T2A/cmr/m/n/10 отрицание $\OMS/cmsy/m/n/10 :\OML/cmm/m/it/10 x$\T2A/cmr/m/n/10 . Эти переменные называются контранными (противоположными)
+ []
+
+
+Overfull \hbox (15.96892pt too wide) in paragraph at lines 146--147
+[]\T2A/cmr/m/n/10 В алгбере предикатов литеры $\OML/cmm/m/it/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 a; y\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 :\OML/cmm/m/it/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 b\OT1/cmr/m/n/10 ))$ \T2A/cmr/m/n/10 не являются контрарными,
+ []
+
+[4]
+Overfull \hbox (9.22272pt too wide) in paragraph at lines 148--149
+[]\T2A/cmr/m/n/10 Элементы области интерпретации могут описываться не только с помощью
+ []
+
+
+Overfull \hbox (24.07765pt too wide) in paragraph at lines 148--149
+\T2A/cmr/m/n/10 предметных переменных, но и с помощью так нахываемых термов --- специальных
+ []
+
+
+Overfull \hbox (7.55893pt too wide) in paragraph at lines 150--151
+[]\T2A/cmr/m/n/10 все предметные переменные и предеметные символы формулы являются
+ []
+
+
+Overfull \hbox (36.94054pt too wide) in paragraph at lines 156--157
+[]\T2A/cmr/m/n/10 Обозначим $\OML/cmm/m/it/10 X[]; C[]$ \T2A/cmr/m/n/10 и $\OML/cmm/m/it/10 F[]$ \T2A/cmr/m/n/10 соответственно множества всех предметных переменных,
+ []
+
+
+Overfull \hbox (23.66109pt too wide) in paragraph at lines 156--157
+\T2A/cmr/m/n/10 предметных символов и функциональных символов, встреечающихся в формулах
+ []
+
+
+Overfull \hbox (26.44064pt too wide) in paragraph at lines 160--161
+[]\T2A/cmr/m/n/10 Отображения $\OML/cmm/m/it/10 ^^R$ \T2A/cmr/m/n/10 множества переменных $\OML/cmm/m/it/10 X[]$ \T2A/cmr/m/n/10 в множество термов $\OML/cmm/m/it/10 T[]$ \T2A/cmr/m/n/10 называются
+ []
+
+
+Overfull \hbox (25.61424pt too wide) in paragraph at lines 168--169
+[]\T2A/cmr/m/n/10 Заменять таким образом мы можем только переменные. Мы берјм переменные
+ []
+
+[5] (./240419_Р»РµРєС†РёСЏ.aux) ) 
+Here is how much of TeX's memory you used:
+ 4780 strings out of 477985
+ 76828 string characters out of 5840058
+ 1858388 words of memory out of 5000000
+ 24938 multiletter control sequences out of 15000+600000
+ 518915 words of font info for 43 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 70i,8n,76p,889b,204s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
+Output written on 240419_Р»РµРєС†РёСЏ.pdf (5 pages, 188436 bytes).
+PDF statistics:
+ 95 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,19 @@
+\documentclass{SCWorks}
+
+\input{preamble.sty}
+\usepackage{forloop}
+\usepackage{pgffor}
+
+
+\begin{document}
+
+\tableofcontents
+
+% Оптимизация от Дани
+\foreach \n in {1,...,30}{
+    \input{билеты/Билет \n}
+}
+
+\input{билеты/Сокращения.tex}
+
+\end{document}

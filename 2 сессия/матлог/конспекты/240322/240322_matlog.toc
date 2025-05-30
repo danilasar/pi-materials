@@ -1,0 +1,9 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {1}Тавтологии алгебры предикатов}{4}{section.1}%
+\contentsline {section}{\numberline {2}Логическая равносильность двух формул}{5}{section.2}%
+\contentsline {section}{\numberline {3}Практика}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Метод проверки тождественной истинности формул}{6}{subsection.3.1}%
+\redeflsection 
+\ttl@change@i {\@ne }{section}{3ex}{\hspace {-3ex}}{\appendixname ~\thecontentslabel \hspace {2ex}}{\hspace {2.3em}}{\titlerule *[0.98ex]{.}\contentspage }\relax 
+\ttl@change@v {section}{}{}{}\relax 
+\contentsfinish 
