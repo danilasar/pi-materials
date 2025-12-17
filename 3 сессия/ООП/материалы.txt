@@ -1,0 +1,11 @@
+материалы от моего кодревьюера как дополнение к курсу ООП (на экзамене у Батраевой ссылаемся только на материалы Батраевой, на это не ссылаемся) 
+SOLID
+https://solidbook.vercel.app/
+https://www.youtube.com/watch?v=zHiWqnTWsn4
+https://www.youtube.com/watch?v=_jDNAf3CzeY
+ООП и паттерны
+https://youtube.com/playlist?list=PL50bi_EDMvQn3QZwRiqThKVYbT6XwbEar&si=BcqHOftW6AIwsSl1
+Про сети (и нетолько)
+https://habr.com/ru/companies/serverspace/articles/689704/ 
+https://www.youtube.com/@merionacademy/videos 
+https://www.youtube.com/@ListenIT_channel/videos
