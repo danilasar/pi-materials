@@ -1,0 +1,194 @@
+ @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+:root {
+  --main-font: 'Jost', sans-serif;
+  --main-font-size: 37px;
+  --main-font-weight: 400;
+  --code-font: 'Inconsolata', monospace;
+}
+
+/* Ensure some types of content fit the page */
+.reveal img,
+.reveal video,
+.reveal iframe {
+  max-width: 95%;
+  max-height: 95%;
+}
+
+.reveal a {
+  background: linear-gradient(125deg, #6DC380 1.74%, #0A6ECB 124.02%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent; /* Fallback for non-WebKit browsers */
+}
+
+.reveal p {
+  line-height: 1.3em;
+  font-family: var(--main-font);
+  font-size: var(--main-font-size);
+  font-weight: var(--main-font-weight);
+}
+
+.reveal li {
+  font-family: var(--main-font);
+  font-size: var(--main-font-size);
+  font-weight: var(--main-font-weight);
+  text-align: left;
+  line-height: 1.2em;
+}
+
+.reveal ul li {
+  list-style: '— ';
+}
+
+/* HEADINGS */
+
+.reveal h1 {
+  font-size: 62pt;
+  font-weight: 600;
+  font-family: var(--main-font);
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.reveal h2 {
+  font-size: 42pt;
+  font-weight: 600;
+  font-family: var(--main-font);
+}
+
+.reveal h3 {
+  font-size: 42pt;
+  font-weight: 600;
+  font-family: var(--main-font);
+}
+
+.reveal h4 {
+  font-size: 28pt;
+  font-family: var(--main-font);
+}
+
+.reveal h5 {
+  font-size: 2em;
+  font-family: var(--main-font);
+}
+
+.reveal h6 {
+  font-size: 1.5em;
+  font-family: var(--main-font);
+}
+
+/* PROGRESS BAR */
+
+.reveal .progress {
+  background: linear-gradient(125deg, #6DC380 1.74%, #0A6ECB 124.02%);
+  background-clip: content-box;
+  color: transparent;
+  height: 2%;
+}
+
+/* QUOTES */
+
+.reveal q {
+  font-style: italic;
+}
+
+.reveal blockquote {
+  display: block;
+  position: relative;
+  margin: 20px auto;
+  width: 70%;
+  padding: 5px;
+  font-style: italic;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+}
+
+.reveal blockquote p:first-child,
+.reveal blockquote p:last-child {
+  display: inline-block;
+}
+
+
+/* CODE */
+
+.reveal .hljs-ln-n {
+  font-size: 0.75em;
+  margin-right: 20px;
+}
+
+.reveal pre {
+  display: block;
+  position: relative;
+  width: auto;
+  margin: 20px auto;
+  text-align: left;
+  font-size: 16pt;
+  font-family: var(--code-font);
+  line-height: 1.2em;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 7px;
+}
+
+.reveal code {
+  font-family: var(--code-font);
+  text-transform: none;
+  tab-size: 2;
+}
+
+.reveal pre code {
+  display: block;
+  padding: 20px;
+  overflow: auto;
+  max-height: 400px;
+  word-wrap: normal;
+}
+
+.reveal .code-wrapper {
+  white-space: normal;
+}
+
+.reveal .code-wrapper code {
+  white-space: pre-wrap;
+}
+
+/* TABLES */
+
+.reveal table {
+  margin: auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.reveal table th {
+  font-weight: bold;
+  border: 1px solid;
+  border-bottom: 2px solid;
+}
+
+.reveal table td {
+  border: 1px solid;
+}
+
+.reveal table th,
+.reveal table td {
+  text-align: left;
+  padding: 0.2em 0.5em 0.2em 0.5em;
+}
+
+.reveal table th[align=center],
+.reveal table td[align=center] {
+  text-align: center;
+}
+
+.reveal table th[align=right],
+.reveal table td[align=right] {
+  text-align: right;
+}
+
+.reveal table tbody tr:last-child th,
+.reveal table tbody tr:last-child td {
+  /* border-bottom: none; */
+}
+
